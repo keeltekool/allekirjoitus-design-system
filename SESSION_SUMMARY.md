@@ -78,3 +78,22 @@ font-family: 'Barlow Condensed'       /* Headings */
 ---
 
 *Start new session, say: "Continue Allekirjoitus project - updating copy for English page"*
+
+---
+
+## GitHub Sync (Home PC Only)
+
+> **Note:** This section only applies when working from the **home PC** (with GitHub access).
+> If you're on the **work laptop**, ignore this completely - just work locally as normal.
+
+**Repository:** https://github.com/keeltekool/allekirjoitus-design-system
+
+**Live preview:** https://keeltekool.github.io/allekirjoitus-design-system/website/en/index.html
+
+**Workflow (home PC only):**
+1. Make changes locally in Google Drive folder
+2. Tell Claude: "sync to GitHub" or "push latest changes"
+3. Claude detects changes, commits, and pushes
+4. Live GitHub Pages URL updates automatically
+
+**Why this exists:** GitHub hosting allows sharing the prototype with external parties via a public URL, without needing to send files or set up hosting.
