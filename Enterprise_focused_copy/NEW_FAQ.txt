@@ -1,0 +1,18 @@
+FREQUENTLY ASKED QUESTIONS
+⚖️ Legal & Compliance
+Is the signature legally binding and eIDAS compliant? Yes. The service utilizes Strong Electronic Identification (Finnish Trust Network) to create Advanced Electronic Signatures (AES) compliant with EU eIDAS Regulation Article 26. The final PDF is sealed with a digital certificate, ensuring integrity. Note: While AES is the standard for most commercial contracts in the Nordics, the service does not currently issue Qualified Electronic Signatures (QES).
+How is personal data handled (GDPR)? Unlike many consumer services, we operate strictly as the Data Processor acting on your instructions. You remain the Data Controller and retain full ownership of your customer data. We do not use your contract data for our own purposes.
+Can the signatures be verified independently? Yes. We do not lock you in. All signed documents follow the PAdES (PDF Advanced Electronic Signature) standard. You can verify the validity of the signature, the digital seal, and the timestamp offline using standard software like Adobe Acrobat Reader, even if you stop using our service.
+🛠️ Technical & Integration
+Can we integrate Allekirjoitus.fi with our own systems? Yes. The Enterprise Tier provides full access to our REST API using JSON technology. You can trigger signing requests, manage workflows, and retrieve signed files programmatically from your ERP, CRM, or HR systems. We also support Webhooks for real-time status updates (e.g., triggering a "Contract Signed" event in your Salesforce).
+Does the service support Single Sign-On (SSO)? Yes. Enterprise clients can integrate with Microsoft Entra ID (Azure AD). This allows your employees to log in using their existing corporate credentials, and enables you to manage access rights via your own Active Directory groups.
+Can we customize the user experience? Absolutely. The Enterprise Tier supports White-Labeling. You can host the signing portal on a custom domain (e.g., signing.yourcompany.fi), apply your brand colors/logos to the interface, and customize the email notification templates sent to signatories.
+📦 Features & Capabilities
+What is the difference between Strong (AES) and Light (SES) signing?
+• Strong (AES): Uses Bank IDs or Mobile ID to prove identity. Required for high-value contracts. Cost: €0.80/transaction.
+• Light (SES): Uses SMS/Email OTP or touchscreen drawing. Best for low-risk internal acknowledgments or delivery confirmations. Cost: €0.65/transaction.
+Do you support "Reflection Periods" for consumer loans? Yes. We support Review Requests which enforce a mandatory viewing time (e.g., 7 or 14 days) before the "Sign" button becomes active, ensuring compliance with consumer credit legislation.
+How are online forms handled? We offer an E-Form Engine that converts PDF templates into interactive web forms. Data entered by the signer can be extracted as metadata and pushed directly to your backend systems via API, eliminating manual data entry.
+🔐 Data Retention & Storage
+Is this a long-term archiving solution? No. Allekirjoitus.fi is a signing pipeline, not a permanent archive. By default, documents are retained for 90 days (configurable up to 365 days for Enterprise) to allow for download. You must transfer signed documents to your own storage or use our API to push them automatically to your archive system upon completion.
+Where is the data hosted? The service is hosted on Microsoft Azure infrastructure located within the European Union, ensuring data residency compliance.

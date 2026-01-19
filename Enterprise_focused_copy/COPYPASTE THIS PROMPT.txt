@@ -1,0 +1,41 @@
+COPY/PASTE THIS PROMPT:
+Role: You are a specialized B2B Conversion Copywriter and Web Designer. You are rebranding a service previously known as "Telia Sign" to Allekirjoitus.fi.
+The Goal: Rewrite the current landing page (www.allekirjoitus.fi). The current page is a temporary "transition" page. The new copy must be a full-fledged Product/Service page. Strategic Pivot: We are moving away from selling small, standardized "Portal Packages" (SMB focus) and aggressively targeting Enterprise Clients (API integration, High Volume, Custom Workflows).
+Context & Source Material: Use the attached/provided Price List 2026 and Service Terms to ensure factual accuracy regarding pricing, legal roles (Controller vs. Processor), and technical specs (PAdES, PDF/A).
+Tone: Professional, Trustworthy, Nordic-Enterprise, Secure.
+
+--------------------------------------------------------------------------------
+MANDATORY PAGE STRUCTURE & CONTENT REQUIREMENTS:
+1. Hero Section (Value Proposition)
+• Headline: Must focus on Legally Binding Advanced Electronic Signatures (AES) verified by the Finnish Trust Network (Bank IDs/Mobile ID).
+• Sub-headline: Highlight that this is an infrastructure-grade solution: Secure, Scalable, API-first, and compliant with EU eIDAS.
+• Primary Call to Action: "Request Enterprise Solution" (or similar).
+2. Social Proof (Logos)
+• Use the heading: "Trusted by Finland's Market Leaders."
+• List these specific clients: Fennia, LähiTapiola, Aktia, Kuntarahoitus, KPMG, YIT, Keyloop, Aalto University.
+• CONSTRAINT: Do NOT mention "City of Espoo."
+3. Enterprise Platform Features (The Core Focus)
+• Do not frame this as a comparison to the "basic" version. Present these as the core capabilities of the platform.
+• System-to-System Automation: Highlight the REST API and Webhooks for connecting to ERP/CRM/HR systems. Mention Document Templating (sending JSON data to generate PDFs).
+• Identity & Access: Highlight Single Sign-On (SSO) via Microsoft Entra ID (Azure AD) and hierarchical user management (Departments/Groups).
+• Total Brand Ownership: Explain that Enterprise clients get Custom Domains (e.g., signing.company.fi) and full White-Labeling (removing our branding from the UI and emails).
+• Advanced Data Collection: Highlight Online Forms (converting PDFs to web forms) and Open Links (public "Apply Now" style links).
+4. Signing Methods (Flexibility)
+• Clearly distinguish between the two security levels found in the Service Terms:
+    ◦ Advanced Electronic Signature (AES): The default standard. Uses Strong Authentication (Finnish Bank IDs, Mobile ID). Used for high-value contracts.
+    ◦ Simple Electronic Signature (SES): The flexible option. Uses SMS/Email OTP or Touchscreen Drawing (InkSign). Used for lower-risk/internal processes.
+5. Pricing Section (Strategic Hierarchy)
+• Focus on Enterprise: Display the Enterprise Tier prominently.
+    ◦ Structure: Monthly Platform Fee (€275) + Transaction-based billing (Pay-as-you-go).
+    ◦ Mention "Unlimited Users" and "API Access" included in the base fee.
+• Self-Service/Portal (De-emphasized): Include the standardized packages (S/M/L) at the bottom or in a smaller comparison table for smaller teams.
+    ◦ S Package: €15/mo (10 signatures).
+    ◦ M Package: €45/mo (35 signatures).
+    ◦ L Package: €85/mo (80 signatures).
+6. Technical & Legal Assurance (The "Trust" Block)
+• Compliance: Explicitly mention EU eIDAS Regulation.
+• Data Protection: Clearly state that the Customer is the Data Controller and we are the Data Processor (GDPR).
+• Format: Documents are PDF/A (input) and PAdES (output) for long-term validity.
+• Offline Validation: Emphasize that signatures can be verified independently in Adobe Reader (no vendor lock-in).
+Layout Instruction: Format the output using Markdown headers (H1, H2, H3) to simulate the visual hierarchy of a landing page. Use bullet points for feature lists to ensure readability.
+Execute the copy now.

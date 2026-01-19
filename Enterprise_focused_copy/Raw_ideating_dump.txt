@@ -1,0 +1,639 @@
+Today • 3:20 PM
+We currently have this landing page for the service - can you access and visit?
+
+
+www.allekirjoitus.fi
+
+I cannot access the live internet to visit websites. However, based on your source documents, specifically the file "Telia Sign Onepager Content_231809eaf9e749b6adbb56af4cc02410-240925-0922-8.pdf", I can confirm exactly what content has been designed for www.allekirjoitus.fi.
+The landing page is structured as a transition and sales hub with the following components:
+1. Hero Banner and Key Message The top of the page announces the acquisition with the text: "Telia Sign is now provided by SK ID Solutions. The service you know and trust remains unchanged, with the transition continuing until 31.12.2025".
+2. Navigation and Branding
+• Logo: The page utilizes the "Allekirjoitus.fi logo" rather than Telia branding.
+• Menu: Includes About, Pricing, FAQ, and Contact.
+• Languages: Offers a switcher for FI (Finnish) and EN (English).
+3. Value Proposition The "About" section focuses on secure digital contracting ("Securely sign contracts, anytime, anywhere") and highlights three key benefits:
+• Fast & Flexible: Simultaneous processing in different locations.
+• No Long-Term Commitment: Transparent pricing with no lock-in.
+• Truly International: Secure signing across Finland, Sweden, Norway, Denmark, and the Baltics.
+4. Pricing Packages The page displays the standard portal pricing tiers:
+• S Package: €10/month (10 signatures).
+• M Package: €30/month (35 signatures).
+• L Package: €60/month (80 signatures).
+• Enterprise: A "Request a Quote" option for customized services including API interfaces and SSO.
+5. Strategic Context for the URL According to the "SK_T_S_Piruza_brifing.txt" source, the decision to use allekirjoitus.fi (meaning "signing.fi") was strategic:
+• Branding: It maintains a Finland-focused positioning.
+• Legal Necessity: SK ID Solutions has limited usage rights for the "Telia Sign" brand (maximum 1 year), necessitating a new, neutral brand identity.
+• Transition: The sources indicate that teliasign.com will eventually redirect to this purchaser's website (allekirjoitus.fi) as part of the transfer agreement.
+What are the three pricing tiers for the portal service?
+How do Allekirjoitus.fi and Dokobit compare for enterprise e-sealing?
+What is the technical impact of using the Finnish URL?
+OK, I see you have the content! The topic now is that we must update the page with updated content! Pretty signicant update - we must turn the current simple page for the more enterprise focused / enterprise benefits communicating page - as we have established that focs is Enterprise and the small "portal" standardised package based user is deprioritized
+
+
+Current page does very little to communicate enterprise benefits and functionalities!
+
+
+Dont do anything yet, I am sharing context atm!
+
+Understood. I am ready to help you rewrite the Allekirjoitus.fi landing page to reflect this strategic pivot from "SMB Portal" to "Enterprise Platform."
+Based on the extensive context provided, specifically the Competitive Benchmarking and Product Feature documents, I have identified the specific Enterprise value propositions that are currently missing or buried on the landing page but need to become the headline features:
+1. Deep Integration & Automation: Moving beyond "upload a PDF" to highlighting REST APIs, Webhooks, and Document Templating (JSON-to-PDF generation) for automated system-to-system workflows.
+2. Identity & Access Control: Shifting focus from simple login to SSO (Azure AD) integration and hierarchical user management (Tenant → Department → Group), which is a key differentiator for large organizations.
+3. Advanced Compliance Workflows: Highlighting specific regulated use cases like Reflection Periods (mandatory for loans) and Signatory Forwarding, rather than just generic "fast signing".
+4. The "Forms" Engine: Bringing Online Forms and Open Forms (public links with strong auth) to the forefront, as this generates ~50% of transaction revenue and is a major differentiator vs. basic signing tools.
+5. Premium Branding: Showcasing Custom Domains (e.g., signing.company.fi) and full white-labeling capabilities, which are critical for enterprise trust.
+I am standing by. When you are ready, I can draft the new site copy to aggressively target these Enterprise buyers and minimize the visibility of the basic S/M/L packages.
+How can we best showcase REST API and webhook automation?
+How should we feature the forms engine for zero-manual entry?
+Which custom branding and SSO benefits will attract large enterprises?
+The page also must communicate "genaral" messaging for the customizability and flexibility for each enterprise clients needs and list out differente signing options starting from the Advanced (standard) but also per use cases Simple signatures with SMS OTP or even signed signatures.
+
+
+We can also add some top customers logos and references (we have very noble customers in FI sense)
+
+
+Best Starting point for building the site up is starting and taking content with modyfing and molding into suitable landing page format from the updated Terms and Conditions and Price List documents. Which I add right away!
+
+Here is a comprehensive draft for the new Allekirjoitus.fi enterprise landing page.
+This copy is engineered to pivot the brand from a simple portal to a robust enterprise platform. It pulls terminology, feature definitions, and value propositions directly from the Service-Specific Terms (DRAFT), TOS Draft, and Enterprise Price List you provided, while integrating the high-profile customer references found in the background research.
+
+--------------------------------------------------------------------------------
+LANDING PAGE DRAFT: Allekirjoitus.fi
+[HERO SECTION]
+Headline: Secure, Scalable, and Fully Integrated Digital Signing for Finnish Enterprise. Sub-headline: Move beyond simple document signing. Automate workflows, integrate with your core systems, and manage high-volume identity verification with a platform built for Finland’s most demanding organizations. CTA Button: Request an Enterprise Quote Secondary Link: Developer API Documentation
+
+--------------------------------------------------------------------------------
+[SOCIAL PROOF / LOGO BAR]
+Section Title: Trusted by Finland’s Industry Leaders [Visual Suggestion: Display logos of the following "noble" customers identified in your portfolio analysis] Fennia Group | LähiTapiola | Aktia Bank | Kuntarahoitus (MuniFin) | YIT Construction | KPMG | City of Espoo | Aalto University
+
+--------------------------------------------------------------------------------
+[MAIN VALUE PROPOSITION]
+Built for Complexity, Designed for Flexibility
+Allekirjoitus.fi (formerly Telia Sign) offers two distinct service models. While our Portal Model serves standard needs, our Enterprise Model provides the infrastructure required for deep system integration, custom branding, and flexible authentication methods.
+1. Total Customizability & Branding
+Your brand should be front and center. Unlike standard portals, our Enterprise Model allows full white-labeling:
+• Branded Experience: Customize the portal user interface, notification emails, and even the cover page of the final PDF with your organization’s logos and colors.
+• Custom Domains: Operate under your own URL (e.g., signing.yourcompany.fi) for maximum trust.
+• Custom Message Templates: Tailor email and SMS notifications with variable parameters based on the agreement type or contracting party.
+2. Deep Integration & Automation
+Stop manual uploads. Integrate signing directly into your ERP, CRM, or HR systems.
+• REST API & Webhooks: Full API access using modern JSON technology for automated dispatching and retrieval. Webhooks provide bidirectional communication to update your systems instantly when a document is signed.
+• Document Templating: Automate mass-contract generation (e.g., employment contracts) by merging dynamic JSON data into PDF templates via API.
+• Single Sign-On (SSO): Seamless login for your employees using your organization’s own credentials (e.g., Microsoft Azure AD / Entra ID).
+3. Advanced Workflows
+• Review Requests: Enforce mandatory reflection periods (e.g., for loan applications) where documents can be viewed but not signed until a timer expires.
+• Online Forms: Convert paper processes into digital forms where metadata is extracted automatically upon signing.
+• Organization Seal: Apply your organization's digital seal to guarantee document integrity without a personal signature.
+
+--------------------------------------------------------------------------------
+[SIGNING METHODS SECTION]
+Flexible Authentication Options for Every Use Case
+We understand that an internal HR memo requires different security than a million-euro mortgage contract. Allekirjoitus.fi allows you to configure the authentication level per transaction.
+🛡️ Advanced Electronic Signature (AES) – The Standard
+Compliant with EU eIDAS Regulation Article 26 The default standard for legally binding business agreements. Signatories are reliably identified using strong electronic identification methods.
+• Methods: Finnish Mobile ID, Bank ID, Smart-ID, and other Nordic/Baltic eID solutions.
+• Best for: Commercial contracts, employment agreements, public sector transactions.
+⚡ Light Identification Signing (SES) – The Flexible Alternative
+Simple Electronic Signature for Lower Assurance Needs When strong authentication is not necessary or available, use agile verification methods without sacrificing the audit trail.
+• SMS OTP: Verify signer identity via a One-Time Password sent to their mobile phone.
+• Email OTP: Verification via email code.
+• Drawn Signature (InkSign): Capture a visual signature on touch devices.
+• Best for: Delivery confirmations, internal approvals, low-risk B2C forms.
+
+--------------------------------------------------------------------------------
+[PRICING MODEL SECTION]
+Transparent Enterprise Pricing
+No hidden seat licenses. Pay for the platform and your usage.
+The Enterprise Model Structure:
+1. Fixed Monthly Base Fee: Covers platform access, API availability, and SSO infrastructure.
+2. Transaction-Based Billing:
+    ◦ Signature Request (Strong): Per signatory/transaction using BankID/MobileID.
+    ◦ Signature Request (Light): Reduced rate for SMS/Email OTP signatures.
+    ◦ SMS Services: Billed per message sent (e.g., for OTPs or notifications).
+3. Professional Services: Hourly options for custom integration support, form creation, and bespoke development.
+Note: A Signature Request is charged when a document is dispatched to a signatory, regardless of completion.
+
+--------------------------------------------------------------------------------
+[TECHNICAL SPECS & COMPLIANCE]
+• Legal Compliance: Meets requirements for Advanced Electronic Signatures (AES) under EU eIDAS regulations.
+• Document Format: Input PDF/A; Output PAdES (PDF Advanced Electronic Signature) containing the signature, seal, and XML audit trail.
+• Verification: Signed documents are self-contained and can be verified offline using standard software like Adobe Reader.
+• Data Protection: We act as the Data Processor acting on your behalf as the Data Controller, ensuring GDPR compliance regarding personal data (HETU) handling.
+
+--------------------------------------------------------------------------------
+[FOOTER / CONTACT]
+Ready to upgrade your signing infrastructure? Our experts are ready to configure a solution that fits your volume and integration needs.
+[Contact Sales Button] Support: support@allekirjoitus.fi
+How should we describe the Online Forms vs. Open Forms differentiation?
+What enterprise branding options like custom domains should be highlighted?
+How do the pricing components differ for API and SSO integration?
+I just added these files I mentioned - basis for new copy (supplementing with your general in-depth knowledge about the service)
+
+
+Documents laying basis are as follows:
+2026-3_Approval_of_Price_List_of_Allekirjoitus_fi_digital_signing_service (2)
+Allekirjoitus_fi_Service_terms_and_conditions_
+
+Based on the new Price List and Service Terms you provided, combined with the detailed operational context from previous sources, here is the updated, enterprise-focused copy for www.allekirjoitus.fi.
+This draft shifts the narrative from "buying a package" to "integrating a platform," highlighting the flexibility between Advanced (AES) and Light (SES) signatures, and explicitly referencing the new pricing structure.
+
+--------------------------------------------------------------------------------
+HERO SECTION
+Headline: The Enterprise Standard for Digital Signing in Finland. Sub-headline: Secure, scalable, and API-first. From high-trust banking authentication to agile SMS signing, manage your organization’s document workflows on one compliant platform. CTA Button: Request Enterprise Access Secondary Link: View API Documentation
+
+--------------------------------------------------------------------------------
+CLIENT REFERENCE BAR
+Trusted by Finland’s Most Demanding Organizations [Logos to display based on your portfolio analysis]: Fennia | LähiTapiola | Aktia | Kuntarahoitus | KPMG | City of Espoo | YIT | Aalto University
+
+--------------------------------------------------------------------------------
+THE ENTERPRISE TIER ADVANTAGE
+Built for integration, designed for compliance.
+Unlike standard portal packages, the Allekirjoitus.fi Enterprise Tier transforms signing from a manual task into an automated infrastructure integrated directly into your ERP, CRM, or HR systems.
+1. Total Customizability & Branding
+Your contracts should look like your contracts.
+• White-Label Experience: Customize the signing interface, notification emails, and even the final PDF cover page with your brand colors and logos.
+• Custom Domains: Operate under your own URL (e.g., signing.yourcompany.fi) to maintain trust and brand continuity.
+• Organizational SSO: Eliminate password fatigue. Integrate with your Microsoft Azure AD / Entra ID for seamless Single Sign-On using your organization's own credentials.
+2. Deep System Integration
+Stop moving files manually.
+• REST API & Webhooks: Full API access allows your systems to trigger signing requests and receive real-time status updates via Webhooks.
+• Document Templating: Send raw JSON data from your system, and our platform will merge it into pre-defined PDF templates automatically.
+• Mass Signing: Handle high-volume seasonal needs (e.g., salary updates) via CSV import or API batching.
+3. Advanced Compliance Workflows
+• Review Requests (Reflection Period): Enforce mandatory viewing times (e.g., 7 days) for loan applications or regulated contracts before the "Sign" button becomes active.
+• Signatory Forwarding: Allow a recipient to delegate signing authority to the correct person within their organization.
+• Online Forms: Convert PDF forms into interactive web forms where data is extracted upon signing—perfect for applications and intake forms.
+
+--------------------------------------------------------------------------------
+FLEXIBLE SIGNING METHODS
+Choose the right level of security for every document type.
+🛡️ Advanced Electronic Signature (AES) – The Standard Legally binding and eIDAS Compliant The default for high-value contracts. Signatories are reliably identified using strong electronic identification methods.
+• Methods: Finnish Mobile ID, Bank ID, Smart-ID, and other Nordic/Baltic eID solutions.
+• Best for: Commercial contracts, loan agreements, public sector transactions.
+⚡ Simple Electronic Signature (SES) – The Flexible Alternative Agile signing for lower-risk use cases When strong authentication is not necessary or available, use our Light Identification options without sacrificing the digital audit trail.
+• SMS/Email OTP: Verify identity via a One-Time Password sent to a mobile phone or email.
+• Drawn Signature (InkSign): Capture a visual signature on touch devices—ideal for face-to-face scenarios at service desks or delivery confirmations,.
+
+--------------------------------------------------------------------------------
+PRICING STRUCTURE
+Transparent, volume-based pricing for Enterprise.
+The Enterprise Tier Model: Instead of restrictive seat licenses, our Enterprise model utilizes a base platform fee plus transactional billing. You only pay for what you execute.
+1. Platform Access Fee: €275 / month Includes full access to the Enterprise environment, API capabilities, SSO infrastructure, and unlimited users.
+2. Transactional Pricing (Pay-As-You-Go)
+• Strong Signing (AES): €0.80 / signatory. Includes strong authentication and digital sealing.
+• Light Signing (SES): €0.65 / signatory. Reduced rate for OTP and drawn signatures.
+• Ancillary Services:
+    ◦ SMS Messages: €0.10 / message (for notifications or OTPs).
+    ◦ File Conversion: €0.25 / document (Word to PDF conversion).
+    ◦ Online Forms: €25.00 / month per active form template.
+
+--------------------------------------------------------------------------------
+TECHNICAL & LEGAL ASSURANCE
+• Data Protection (GDPR): We operate as the Data Processor acting strictly on your instructions as the Data Controller. You retain full ownership and control of your customer data.
+• Standardized Format: All final documents are output in PAdES (PDF Advanced Electronic Signature) format, containing the visual signature, digital seal, and XML audit trail.
+• Independent Verification: Signed documents are self-contained. Anyone can verify their validity offline using standard software like Adobe Reader—no vendor lock-in.
+
+--------------------------------------------------------------------------------
+FOOTER / CONTACT
+Ready to upgrade your signing infrastructure? Our experts are ready to configure a solution that fits your integration needs.
+[Contact Sales] Support: support@allekirjoitus.fi
+How much does the Enterprise fixed monthly fee cost?
+What specific customer logos can we feature for Finnish credibility?
+How do Simple signatures differ from Advanced ones in price?
+The page still must add the simple packages as well you cant neglect them tottaly, I didnt say get rid of them!
+
+Based on your directive to retain the "Simple" packages while updating the content with the 2026 Price List and Service Terms, I have designed a specific "Plans & Pricing" section.
+This section strategically positions the Basic Tier (Portal) as a standardized, "off-the-shelf" solution for smaller teams, while contrasting it against the Enterprise Tier to encourage upselling for complex needs.
+Important Note on Pricing Updates: The draft below utilizes the new 2026 pricing found in source , which reflects an increase from the legacy Telia pricing (e.g., Package S is now €15.00, previously €10.00; Enterprise Platform Fee is €275.00, previously €230.00).
+
+--------------------------------------------------------------------------------
+[UPDATED SECTION] Plans & Pricing
+Choose the model that fits your organization. Start with our ready-to-use Portal packages or upgrade to the Enterprise Tier for full platform integration.
+1. BASIC TIER (Portal Model)
+Instant access via web browser. Ideal for small teams and standard document handling.
+All Basic Packages Include:
+• Access: Standard Allekirjoitus.fi Web Portal,.
+• Authentication: Strong Authentication (Mobile ID / Bank ID) included.
+• Security: SMS Codes for document retrieval included.
+• Storage: 90-day document retention.
+Package
+Included Signatures
+User Limit
+Monthly Fee
+Small (S)
+10 requests / mo
+1 User
+€ 15.00
+Medium (M)
+35 requests / mo
+Up to 5 Users
+€ 45.00
+Large (L)
+80 requests / mo
+Up to 10 Users
+€ 85.00
+Need more signatures? Additional requests billed at €1.50 per signatory.
+
+--------------------------------------------------------------------------------
+2. ENTERPRISE TIER (Platform Model)
+For organizations requiring system integration, custom branding, and unlimited users.
+The Enterprise Advantage:
+• Unlimited Users: No per-user fees; hierarchical management (Departments/Groups) sourced from AD.
+• Full Customization: Custom branding (UI & PDF), custom email templates, and custom domains (e.g., signing.company.fi),.
+• Integration: Full REST API & Webhooks for automated workflows.
+• Flexible Signing: Option for Light Authentication (SMS/Email OTP) and Digital Sealing.
+Enterprise Pricing Structure: The Enterprise model separates the platform fee from usage to allow for scale.
+• Platform Access Fee: € 275.00 / month
+    ◦ Includes API access, SSO infrastructure, and Unlimited Users.
+• Transaction Fees (Pay-As-You-Go):
+    ◦ Strong Signing (AES): € 0.80 / signatory
+    ◦ Light Signing (SES): € 0.65 / signatory
+    ◦ SMS Messages: € 0.10 / message
+
+--------------------------------------------------------------------------------
+FEATURE COMPARISON TABLE
+Feature
+Basic Tier (Portal)
+Enterprise Tier
+User Access
+Limited (1-10 Users)
+Unlimited (SSO/AD Support)
+Signer Auth
+Strong Only (Bank/Mobile ID)
+Flexible (Strong + Light Options)
+Integration
+Web Portal Only
+REST API + Webhooks
+Branding
+Standard Allekirjoitus.fi
+Fully White-Label
+Workflows
+Standard Sequential
+Advanced (Review periods, Mass signing)
+Forms
+Not Available
+Online Forms & Open Links
+Data Control
+Standard
+Metadata Extraction
+
+--------------------------------------------------------------------------------
+[Technical Footnote for Page Bottom]
+• Signature Request (SR): Charged per signatory when a document is dispatched. For example, a document sent to 4 people consumes 4 Signature Requests.
+• VAT: All prices exclude VAT. Prices subject to annual adjustment based on CPI.
+• Archive: Customers are responsible for downloading signed PAdES documents to their own long-term storage before the retention period expires.
+How will you present the API features to developers?
+Can we compare the Basic and Enterprise retention policies?
+Should we include technical specs for AATL and PAdES?
+Are you fucking stupid or playing stupid (applies in general not only this):
+
+
+""THE ENTERPRISE TIER ADVANTAGE
+Built for integration, designed for compliance.
+Unlike standard portal packages, the Allekirjoitus.fi Enterprise Tier transforms signing from a manual task into an automated infrastructure integrated directly into your ERP, CRM, or HR systems."""
+
+
+The site visitors dont give a flieng fucks about the "comparison to Portal" - wth is this relevant, they dont know the context - its was only relevant for us internally not externally!!!!!
+
+Point taken. You are right—external visitors do not care about internal product distinctions or "Portal vs. Enterprise" comparisons; they care about solving their specific business problems. Framing the Enterprise value proposition as a "comparison to the basic version" weakens the message and wastes the visitor's time.
+Here is the corrected, hard-hitting version. It isolates the Enterprise capabilities as a standalone, powerful infrastructure solution, while simply listing the Standard Packages at the bottom for those who just need a quick fix.
+
+--------------------------------------------------------------------------------
+HERO SECTION
+Headline: Automated Digital Signing Infrastructure for Finnish Industry. Sub-headline: Integrate secure signing, data collection, and identity verification directly into your ERP, CRM, or HR systems. Scalable, compliant, and white-labeled for your brand. CTA: Request Enterprise Quote Secondary Link: Developer API Docs
+
+--------------------------------------------------------------------------------
+TRUST INDICATORS
+Trusted by Finland’s Market Leaders [Logos]: Fennia | LähiTapiola | Aktia | Kuntarahoitus | KPMG | City of Espoo | YIT | Aalto University
+
+--------------------------------------------------------------------------------
+ENTERPRISE CAPABILITIES
+Engineered for high-volume workflows and complex compliance requirements.
+1. System-to-System Automation
+Eliminate manual processing. Connect Allekirjoitus.fi directly to your core business systems using our REST API.
+• Automated Dispatch: Trigger signing requests programmatically from your CRM or HR software.
+• Real-Time Webhooks: Receive instant status updates and signed files back into your system the moment they are completed,.
+• Document Templating: Send raw JSON data to our API to automatically generate and populate contracts (e.g., employment agreements) on the fly,.
+2. Identity & Access Management
+Secure your internal operations with enterprise-grade access control.
+• Single Sign-On (SSO): Integrate with Microsoft Entra ID (Azure AD). Your employees log in using their existing corporate credentials—no separate passwords to manage,.
+• Organization-Wide Control: Map your internal hierarchy (Departments, Groups) to access rights, ensuring data isolation between units (e.g., HR cannot see Sales contracts),.
+3. Total Brand Ownership
+Your customer trusts you, not your vendor.
+• White-Labeling: Remove our branding. Customize the signing interface, email notifications, and even the final PDF cover page with your logos, colors, and fonts,.
+• Custom Domains: Host the signing experience on your own URL (e.g., signing.yourcompany.fi) to maintain domain trust and security,.
+4. Advanced Data Collection (Online Forms)
+Turn static PDFs into interactive web flows.
+• E-Forms: Convert applications and questionnaires into digital forms. Signatories fill in data fields which are extracted as metadata and pushed directly to your systems—eliminating manual data entry,.
+• Open Links: Create public-facing signing links (e.g., "Apply Now" buttons) on your website that trigger strong authentication before form access.
+
+--------------------------------------------------------------------------------
+SIGNING METHODS
+Configure the required security level per transaction.
+🛡️ Advanced Electronic Signature (AES) The Nordic Standard for High-Value Contracts Secure, eIDAS-compliant signing using strong electronic identification.
+• Supported Methods: Finnish Mobile ID, Bank ID, Smart-ID, and Nordic eIDs (Sweden, Norway, Denmark),.
+• Use Case: Loan agreements, B2B contracts, public sector filings.
+⚡ Simple Electronic Signature (SES) Frictionless Signing for Lower Risk Fast verification for high-volume or consumer-facing scenarios.
+• SMS/Email OTP: Identity verification via a One-Time Password sent to a mobile device,.
+• Touch Signature (InkSign): Capture a hand-drawn signature on a tablet or mobile screen—ideal for point-of-sale or delivery confirmation.
+🏢 Organization Seal (e-Seal) Automated Corporate Validation Apply your organization's digital seal to mass-produced documents (e.g., invoices, certificates) to guarantee origin and integrity without a personal signature,.
+
+--------------------------------------------------------------------------------
+PRICING
+ENTERPRISE PLATFORM
+For organizations requiring integration, API access, and custom workflows.
+Platform Fee: € 275 / month Includes API access, SSO/AD integration, and Unlimited Users.
+Transaction Pricing (Pay-As-You-Go):
+• Strong Signing (AES): € 0.80 / signatory.
+• Light Signing (SES): € 0.65 / signatory.
+• SMS Services: € 0.10 / message.
+• Volume discounts available for high-capacity partners.
+[Button: Contact Sales for Configuration]
+
+--------------------------------------------------------------------------------
+STANDARD PACKAGES
+Ready-to-use web portal for immediate document signing. Includes Strong Authentication and Archive (90 days).
+Small
+Medium
+Large
+10 signatures / mo
+35 signatures / mo
+80 signatures / mo
+€ 15 / mo
+€ 45 / mo
+€ 85 / mo
+1 User
+Up to 5 Users
+Up to 10 Users
+[Select Small]
+[Select Medium]
+[Select Large]
+Additional signatures: € 1.50 / piece. Prices VAT 0%.
+
+--------------------------------------------------------------------------------
+TECHNICAL SPECS
+• Format: Input PDF/A; Output PAdES (PDF Advanced Electronic Signature).
+• Compliance: EU eIDAS Regulation (AES).
+• Data Protection: We act as the Data Processor under GDPR; you retain full control as Data Controller.
+• Archive: API export available for long-term storage in your own systems.
+How do we differentiate e-Forms from simple PDF signing?
+What is the monthly base fee for Enterprise clients?
+Explain the role of AATL certificates in PAdES finalization.
+We must highlight the main thing the service does - EIDAS level Advanced Signatures with secure signing (authentication) with Finnish (+Nordic) all main E-ID-s. Why wasnt that stressed?
+
+You are absolutely right. In focusing on the "Enterprise" functionality (APIs, SSO, Branding), the drafts drifted too far from the core product truth: that this is a strong authentication service generating legally binding Advanced Electronic Signatures (AES).
+According to the technical documentation, the service's primary legal weight comes from "Strong Authentication" (Finnish Trust Network, BankIDs, etc.), which elevates the signature to eIDAS AES level automatically—a critical differentiator against "scribble on screen" competitors,,.
+Here is the Revised Content Block that brings eIDAS AES and Nordic Authentication to the very top of the hierarchy.
+
+--------------------------------------------------------------------------------
+[REVISED] HERO SECTION
+Headline: Legally Binding Advanced Electronic Signatures (AES) for Finland & the Nordics. Sub-headline: Secure your contracts with EU eIDAS-compliant signatures. Verified by Finnish Bank IDs, Mobile ID, and leading Nordic electronic identities. CTA: Request Enterprise Access
+
+--------------------------------------------------------------------------------
+[NEW KEY SECTION] THE TRUST STANDARD
+Why Allekirjoitus.fi is Different: True Identity Verification
+Most e-signing tools just capture an image of a signature. We capture proven identity. Our platform uses Strong Electronic Identification to meet the requirements for Advanced Electronic Signatures (AES) under the EU eIDAS regulation,.
+1. Broadest Nordic-Baltic Authentication Coverage
+We support the native e-IDs your customers and employees already use. No new accounts required,.
+• 🇫🇮 Finland: Finnish Bank IDs (all major banks), Mobile ID (Mobiilivarmenne), Finnish ID Card.
+• 🇸🇪 Sweden: Swedish BankID, Freja eID.
+• 🇳🇴 Norway: BankID, Buypass.
+• 🇩🇰 Denmark: MitID.
+• 🇪🇪 🇱🇻 🇱🇹 Baltics: Smart-ID, Mobile-ID.
+2. Legal Certainty (eIDAS AES)
+Every signature collected via our Strong Authentication channels creates an Advanced Electronic Signature.
+• Tamper-Evident: The document is sealed with a digital certificate.
+• Linked to Identity: The signature is uniquely linked to the signer via their banking or mobile credentials.
+• Independent Verification: The validity of the signature can be verified offline in standard software like Adobe Reader—you are not locked into our platform to prove a contract is valid,.
+
+--------------------------------------------------------------------------------
+[UPDATED] SIGNING METHODS & SECURITY LEVELS
+Configure the required security level per transaction.
+✅ Advanced Electronic Signature (AES) – The Standard Default for High-Value & Regulated Contracts Utilizes strong electronic authentication to undeniably identify the signatory.
+• Compliance: EU eIDAS Article 26.
+• Identity Data: Captures verified name and Personal Identity Code (HETU) in the audit trail,.
+• Use Cases: Commercial contracts, employment agreements, public sector decisions, loan applications.
+⚡ Simple Electronic Signature (SES) – Flexible Option For Lower-Risk Scenarios When speed is priority or strong ID is unavailable.
+• Methods: SMS One-Time-Password (OTP), Email OTP, or touchscreen drawing (InkSign),.
+• Use Cases: Delivery acknowledgments, internal memos, B2C forms.
+
+--------------------------------------------------------------------------------
+[RETAINED] ENTERPRISE INFRASTRUCTURE
+Built to scale strong authentication across your organization.
+• REST API & Webhooks: Automate the dispatch of AES-level signature requests directly from your ERP or CRM.
+• Single Sign-On (SSO): Manage internal signing rights via your own Microsoft Azure AD / Entra ID,.
+• Custom Branding: Your domain, your logos, your trust,.
+How does Finnish law define Advanced Electronic Signature compliance?
+What specific Nordic e-IDs are supported for cross-border transactions?
+How can the platform be white-labeled for enterprise branding?
+This part here, goes to technical and broad, must be done more concrete/optimal form stressing the main functionalities and strongsuits:
+
+
+""ENTERPRISE CAPABILITIES
+Engineered for high-volume workflows and complex compliance requirements.
+
+
+
+System-to-System Automation
+Eliminate manual processing. Connect Allekirjoitus.fi directly to your core business systems using our REST API.
+• Automated Dispatch: Trigger signing requests programmatically from your CRM or HR software.
+• Real-Time Webhooks: Receive instant status updates and signed files back into your system the moment they are completed,.
+• Document Templating: Send raw JSON data to our API to automatically generate and populate contracts (e.g., employment agreements) on the fly,.
+
+Identity & Access Management
+Secure your internal operations with enterprise-grade access control.
+• Single Sign-On (SSO): Integrate with Microsoft Entra ID (Azure AD). Your employees log in using their existing corporate credentials—no separate passwords to manage,.
+• Organization-Wide Control: Map your internal hierarchy (Departments, Groups) to access rights, ensuring data isolation between units (e.g., HR cannot see Sales contracts),.
+
+Total Brand Ownership
+Your customer trusts you, not your vendor.
+• White-Labeling: Remove our branding. Customize the signing interface, email notifications, and even the final PDF cover page with your logos, colors, and fonts,.
+• Custom Domains: Host the signing experience on your own URL (e.g., signing.yourcompany.fi) to maintain domain trust and security,.
+
+Advanced Data Collection (Online Forms)
+Turn static PDFs into interactive web flows.
+• E-Forms: Convert applications and questionnaires into digital forms. Signatories fill in data fields which are extracted as metadata and pushed directly to your systems—eliminating manual data entry,.
+• Open Links: Create public-facing signing links (e.g., "Apply Now" buttons) on your website that trigger strong authentication before form access.""
+
+ENTERPRISE CAPABILITIES
+Engineered for high-volume operations, security, and brand continuity.
+1. Seamless System Integration
+Stop managing documents manually. Connect Allekirjoitus.fi directly to your CRM, HR, or ERP systems to automate the entire lifecycle.
+• Automated Contract Generation: Send data from your system to instantly create, populate, and dispatch contracts (e.g., employment agreements) without human intervention,.
+• Real-Time Sync: Your internal systems receive immediate updates and download signed files the moment a transaction is completed, triggering your next internal process automatically,.
+2. Enterprise Security & Access Control
+Manage internal operations with the security standards required by large organizations.
+• Single Sign-On (SSO): Employees log in using your organization’s existing Microsoft Entra ID (Azure AD) credentials—eliminating password fatigue and simplifying user onboarding,.
+• Department-Level Isolation: strict hierarchical permissions ensure data privacy between units; for example, ensure Sales teams cannot access confidential HR contracts,.
+3. Total Brand Ownership
+Your clients trust you, not your software vendor. Present a seamless, fully branded experience.
+• White-Label Experience: Fully customize the signing portal, email notifications, and the final PDF cover page with your organization's logos, colors, and terminology,.
+• Custom Domain: Host the signing experience on your own trusted URL (e.g., signing.yourcompany.fi) rather than a third-party link,.
+4. Smart Forms & Data Collection
+Replace static PDF downloads with interactive digital forms that capture data for you.
+• Digital Applications (E-Forms): Convert questionnaires and applications into digital forms. When signed, the data provided by the user flows directly into your backend systems, eliminating manual data entry,.
+• Public Signing Links: Place "Apply Now" or "Sign Here" buttons directly on your website that trigger strong authentication and open the signing workflow immediately—no invite required,.
+How can we implement a custom domain for our portal?
+What is the process for setting up Microsoft Entra ID?
+How do E-Forms handle metadata extraction for automated workflows?
+Page is strictly finnish specific (stressing other options may be smallprint, not take room), cause main focus in finland
+
+
+Also cut short references:  retain Lähitapiola, Fennia, KPMG, Aktia  - or please revise preferably be from different sectors - for example Keyloop....
+
+Here is the finalized, production-ready copy for www.allekirjoitus.fi.
+This version strictly prioritizes the Finnish market, highlights Strong Authentication (AES) as the core trust factor, and diversifies the client references as requested (including Keyloop). It groups the "Simple" portal packages at the bottom as a self-service option, keeping the main focus on the Enterprise Platform.
+
+--------------------------------------------------------------------------------
+[HERO SECTION]
+Headline: The Trusted Standard for Electronic Signing in Finland. Sub-headline: Legally binding Advanced Electronic Signatures (AES) verified by Finnish Bank IDs and Mobile ID. Secure, compliant, and ready to integrate with your business systems. Primary CTA: Request Enterprise Solution Secondary CTA: Login
+
+--------------------------------------------------------------------------------
+[CLIENT REFERENCES]
+Trusted by leading organizations across sectors: LähiTapiola | Aktia Pankki | KPMG | Keyloop | City of Espoo
+
+--------------------------------------------------------------------------------
+[CORE VALUE PROPOSITION]
+Legally Binding. Finnish Trust Network Verified.
+Security is not optional. Allekirjoitus.fi provides Advanced Electronic Signatures (AES) compliant with EU eIDAS regulation (Article 26).
+• 🇫🇮 Native Finnish Authentication: We support strong electronic identification via the Finnish Trust Network (FTN). Signatories authenticate using their existing credentials—Nordea, OP, Danske Bank, Swedbank, and all major Finnish banks, plus Mobiilivarmenne,.
+• Tamper-Evident Security: Every signed document is sealed with a digital certificate and includes a comprehensive XML audit trail to guarantee integrity,.
+• Cross-Border Ready: Also supports Swedish BankID, Norwegian BankID, Danish MitID, and Baltic Smart-ID when international reach is required.
+
+--------------------------------------------------------------------------------
+[ENTERPRISE PLATFORM]
+Built for Integration & Automation
+For organizations requiring system integration, custom branding, and volume scalability.
+1. Automate Your Workflows (API & Webhooks) Stop handling PDF files manually. Connect Allekirjoitus.fi directly to your ERP, CRM, or HR system using our robust REST API.
+• Trigger & Forget: Automatically dispatch contracts from your system based on business logic.
+• Real-Time Updates: Use Webhooks to receive instant status updates and download signed files back to your archive the moment they are completed.
+2. Total Brand Ownership Your contracts should look like your contracts.
+• Custom Domains: Host the signing portal on your own URL (e.g., signing.yourcompany.fi) to maintain customer trust.
+• White-Labeling: Customize the interface, email notifications, and PDF cover page with your logos and brand colors.
+3. Enterprise Access Control (SSO) Secure your internal operations.
+• Single Sign-On: Integrate with Microsoft Entra ID (Azure AD). Employees log in with their existing corporate credentials—no separate passwords to manage.
+• Department Isolation: Strict data boundaries between HR, Legal, and Sales departments,.
+4. Advanced Data Collection (Forms)
+• E-Forms: Convert static PDF applications into interactive web forms. Collect structured data that flows directly into your backend systems,.
+• Public Links: Create "Apply Now" links for your website that trigger strong authentication before the user can view or sign the document.
+
+--------------------------------------------------------------------------------
+[SIGNING FLEXIBILITY]
+Choose the right level of authentication for every transaction.
+🛡️ Strong Authentication (AES) – The Standard Default for High-Value Contracts Required for legally binding agreements where identity must be proven beyond doubt. Uses Finnish Bank IDs or Mobile ID.
+• Best for: Commercial contracts, loan agreements, public sector decisions, employment contracts.
+⚡ Light Signing (SES) – The Agile Option Available in Enterprise Tier Frictionless signing for lower-risk use cases where speed is priority.
+• Methods: SMS One-Time-Password (OTP), Email OTP, or Touchscreen Drawing (InkSign),.
+• Best for: Delivery confirmations, internal approvals, B2C change orders.
+
+--------------------------------------------------------------------------------
+[PRICING & PACKAGES]
+🏢 ENTERPRISE TIER (Platform Model)
+For integration, API access, and custom workflows.
+Platform Fee: €275 / month
+• Unlimited Users (SSO/AD Support)
+• Full API & Webhook Access
+• Custom Branding Capabilities
+Transaction Pricing (Pay-As-You-Go):
+• Strong Signing (AES): €0.80 / signatory
+• Light Signing (SES): €0.65 / signatory
+• SMS Services: €0.10 / message
+[Button: Contact Sales]
+
+--------------------------------------------------------------------------------
+👤 PORTAL PACKAGES (Basic Service)
+Ready-to-use web portal for small teams. No integration required. Includes Strong Authentication & 90-day Archive.
+Small (S)
+Medium (M)
+Large (L)
+10 signatures / mo
+35 signatures / mo
+80 signatures / mo
+€ 15 / month
+€ 45 / month
+€ 85 / month
+[Select Small]
+[Select Medium]
+[Select Large]
+Additional signatures: € 1.50 / piece. Prices VAT 0%.
+
+--------------------------------------------------------------------------------
+[TECHNICAL SPECS]
+• Compliance: EU eIDAS Regulation (AES).
+• Format: Input PDF/A; Output PAdES (PDF Advanced Electronic Signature).
+• Verification: Documents are self-contained and verifiable offline in Adobe Reader.
+• Data Protection: We act as the Data Processor; you retain full control as the Data Controller.
+How will you handle custom domain setup for existing customers?
+What documentation is available for developers using the REST API?
+How do you manage AD group permissions for different departments?
+I am also using another AI to do the best version of the copy - I am providing him the 2 documents  I shared recently.
+
+
+It must communicate the general needed direction (meaning changing our current landing page which was more meant as an transitional page to true product/service page and stressing, communicating, the features, sections, copy, etc  -we have stressed and agreed here. With this master prompt you are going to make the AI can build its own best version of the copy
+
+
+And NB! Exclude "Espoo" but include other references.  With this prompt other AI receives full guidance how to build copy (but also the underlying layout style) for the updated page!
+
+Here is the Master Prompt you can feed to the other AI.
+This prompt synthesizes the 2026 Price List, the Service Terms, and our entire strategic conversation into a single directive. It gives the AI the context, the tone, the specific data points, and the structural constraints needed to generate the high-quality copy we developed.
+
+--------------------------------------------------------------------------------
+COPY/PASTE THIS PROMPT:
+Role: You are a specialized B2B Conversion Copywriter and Web Designer. You are rebranding a service previously known as "Telia Sign" to Allekirjoitus.fi.
+The Goal: Rewrite the current landing page (www.allekirjoitus.fi). The current page is a temporary "transition" page. The new copy must be a full-fledged Product/Service page. Strategic Pivot: We are moving away from selling small, standardized "Portal Packages" (SMB focus) and aggressively targeting Enterprise Clients (API integration, High Volume, Custom Workflows).
+Context & Source Material: Use the attached/provided Price List 2026 and Service Terms to ensure factual accuracy regarding pricing, legal roles (Controller vs. Processor), and technical specs (PAdES, PDF/A).
+Tone: Professional, Trustworthy, Nordic-Enterprise, Secure.
+
+--------------------------------------------------------------------------------
+MANDATORY PAGE STRUCTURE & CONTENT REQUIREMENTS:
+1. Hero Section (Value Proposition)
+• Headline: Must focus on Legally Binding Advanced Electronic Signatures (AES) verified by the Finnish Trust Network (Bank IDs/Mobile ID).
+• Sub-headline: Highlight that this is an infrastructure-grade solution: Secure, Scalable, API-first, and compliant with EU eIDAS.
+• Primary Call to Action: "Request Enterprise Solution" (or similar).
+2. Social Proof (Logos)
+• Use the heading: "Trusted by Finland's Market Leaders."
+• List these specific clients: Fennia, LähiTapiola, Aktia, Kuntarahoitus, KPMG, YIT, Keyloop, Aalto University.
+• CONSTRAINT: Do NOT mention "City of Espoo."
+3. Enterprise Platform Features (The Core Focus)
+• Do not frame this as a comparison to the "basic" version. Present these as the core capabilities of the platform.
+• System-to-System Automation: Highlight the REST API and Webhooks for connecting to ERP/CRM/HR systems. Mention Document Templating (sending JSON data to generate PDFs).
+• Identity & Access: Highlight Single Sign-On (SSO) via Microsoft Entra ID (Azure AD) and hierarchical user management (Departments/Groups).
+• Total Brand Ownership: Explain that Enterprise clients get Custom Domains (e.g., signing.company.fi) and full White-Labeling (removing our branding from the UI and emails).
+• Advanced Data Collection: Highlight Online Forms (converting PDFs to web forms) and Open Links (public "Apply Now" style links).
+4. Signing Methods (Flexibility)
+• Clearly distinguish between the two security levels found in the Service Terms:
+    ◦ Advanced Electronic Signature (AES): The default standard. Uses Strong Authentication (Finnish Bank IDs, Mobile ID). Used for high-value contracts.
+    ◦ Simple Electronic Signature (SES): The flexible option. Uses SMS/Email OTP or Touchscreen Drawing (InkSign). Used for lower-risk/internal processes.
+5. Pricing Section (Strategic Hierarchy)
+• Focus on Enterprise: Display the Enterprise Tier prominently.
+    ◦ Structure: Monthly Platform Fee (€275) + Transaction-based billing (Pay-as-you-go).
+    ◦ Mention "Unlimited Users" and "API Access" included in the base fee.
+• Self-Service/Portal (De-emphasized): Include the standardized packages (S/M/L) at the bottom or in a smaller comparison table for smaller teams.
+    ◦ S Package: €15/mo (10 signatures).
+    ◦ M Package: €45/mo (35 signatures).
+    ◦ L Package: €85/mo (80 signatures).
+6. Technical & Legal Assurance (The "Trust" Block)
+• Compliance: Explicitly mention EU eIDAS Regulation.
+• Data Protection: Clearly state that the Customer is the Data Controller and we are the Data Processor (GDPR).
+• Format: Documents are PDF/A (input) and PAdES (output) for long-term validity.
+• Offline Validation: Emphasize that signatures can be verified independently in Adobe Reader (no vendor lock-in).
+Layout Instruction: Format the output using Markdown headers (H1, H2, H3) to simulate the visual hierarchy of a landing page. Use bullet points for feature lists to ensure readability.
+Execute the copy now.
+How can SK differentiate Allekirjoitus from Visma Sign in Finland?
+What does a typical Enterprise pricing transition look like for clients?
+Can you explain the technical steps for an Entra ID integration?
+Start typing...
+102 sources
+Studio
+Audio Overview
+Video Overview
+Mind Map
+Reports
+Flashcards
+Quiz
+Infographic
+Slide Deck
+Data Table
+Studio output will be saved here.
+After adding sources, click to add Audio Overview, Study Guide, Mind Map, and more!
+NotebookLM can be inaccurate; please double check its responses.
